@@ -1,0 +1,102 @@
+{
+    "templateName": "spa-app-template",
+    "designPath": "/libs/settings/wcm/designs/default",
+    "cssClassNames": "spa page basicpage",
+    "language": "en",
+    "title": "en",
+    ":type": "ecomm-nxtgen-pd-aem/components/spa",
+    ":items": {},
+    ":itemsOrder": [],
+    ":hierarchyType": "page",
+    ":children": {
+        "/content/ecomm-nxtgen-pd-aem/us/en/home": {
+            "lastModifiedDate": 1538639429650,
+            "templateName": "spa-page-template",
+            "designPath": "/libs/settings/wcm/designs/default",
+            "cssClassNames": "spa page basicpage",
+            "language": "en",
+            "title": "ECOMM NEXTGEN PD AEM Home Page",
+            ":type": "ecomm-nxtgen-pd-aem/components/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "allowedComponents": {
+                        "components": [
+                            {
+                                "path": "/conf/ecomm-nxtgen-pd-aem/settings/wcm/templates/spa-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                                "title": "Layout Container"
+                            },
+                            {
+                                "path": "/conf/ecomm-nxtgen-pd-aem/settings/wcm/templates/spa-page-template/structure/jcr:content/root/ecomm-nxtgen-pd-aem/components/text",
+                                "title": "Text"
+                            }
+                        ],
+                        "applicable": false
+                    },
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "allowedComponents": {
+                                "components": [
+                                    {
+                                        "path": "/content/ecomm-nxtgen-pd-aem/us/en/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                                        "title": "Layout Container"
+                                    },
+                                    {
+                                        "path": "/content/ecomm-nxtgen-pd-aem/us/en/home/jcr:content/root/responsivegrid/ecomm-nxtgen-pd-aem/components/text",
+                                        "title": "Text"
+                                    }
+                                ],
+                                "applicable": false
+                            },
+                            "columnClassNames": {
+                                "text": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            ":items": {
+                                "text": {
+                                    "id": "text-e4efed9399",
+                                    "text": "<h1>AEM Jarvis</h1>",
+                                    "richText": true,
+                                    ":type": "ecomm-nxtgen-pd-aem/components/text",
+                                    "dataLayer": {
+                                        "text-e4efed9399": {
+                                            "@type": "ecomm-nxtgen-pd-aem/components/text",
+                                            "xdm:text": "\u003Cp\u003EHello World!\u003C/p\u003E"
+                                        }
+                                    }
+                                },
+                                "image": {
+                                    "alt": "Pharmacy",
+                                    "title": "Pharmacy",
+                                    "src": "/assets/static/images/hdr_deliveryclosure_1280@1x.jpg",
+                                    ":type": "ecomm-nxtgen-pd-aem/components/image"
+                                }
+                            },
+                            ":itemsOrder": [
+                                
+                                "image",
+                                "text"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/content/ecomm-nxtgen-pd-aem/us/en/home"
+        }
+    },
+    ":path": "/content/ecomm-nxtgen-pd-aem/us/en"
+}

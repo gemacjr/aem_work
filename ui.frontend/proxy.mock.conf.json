@@ -1,0 +1,10 @@
+[
+    {
+        "context": [
+            "/content/**/*.model.json"
+        ],
+        "pathRewrite": {"^/content/ecomm-nxtgen-pd-aem/us" : "/mocks/json"},
+        "target": "http://localhost:4200",
+        "logLevel": "debug"
+    }
+]
